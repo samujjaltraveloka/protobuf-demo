@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_outer_classname = "DroolRule";
+option java_package = "dev.samujjal.poc.protobufdemo.generatedproto";
+
+message Rule {
+    string name = 1;
+    string description = 2;
+    int32 priority = 3;
+    string condition = 4;
+    string action = 5;
+}
